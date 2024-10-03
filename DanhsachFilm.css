@@ -1,0 +1,122 @@
+*{margin: 0; padding: 0;}
+
+
+.header{
+   width: 100%;
+    position: top;
+    padding-top: 13pt;
+    padding-bottom: 5pt;
+}
+.headermenu{
+   
+    padding-left: 137px;
+}
+.banner{
+    margin-bottom:  50px;
+    margin-top: -50px;
+}
+.thongbao{
+    padding-top: 90pt;
+    padding-bottom: 5pt;
+}
+ div.tab a {
+            background-color: #ddd; 
+            
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+
+}
+/* đổi màu khi một button tab được hover */
+div.tab a:hover {
+            background-color: #ddd;
+ }
+  /* đổi màu nền cho tab đang được hiển thị nội dung */
+div.tab a.active {
+            background-color: #66b3ff;
+            color:white;
+        }
+/* định dạng nội dung hiển thị */
+.tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            padding-top: 60px;
+}
+li.hinhbutton a
+{
+    
+    
+}
+ @-webkit-keyframes rotate360 {
+    100% { -webkit-transform: rotate(360deg); }
+}
+ 
+@-moz-keyframes rotate360 {
+    100% { -moz-transform: rotate(360deg); }
+}
+ 
+@-ms-keyframes rotate360 {
+    100% { -ms-transform: rotate(360deg); }
+}
+ 
+@-o-keyframes rotate360 {
+    100% { -o-transform: rotate(360deg); }
+}
+ 
+@keyframes rotate360 {
+    100% { transform: rotate(360deg); }
+}
+ 
+
+.rotate360:hover  {
+    -webkit-animation-name: rotate360;
+    -moz-animation-name: rotate360;
+    -ms-animation-name: rotate360; 
+    -o-animation-name: rotate360;
+    animation-name: rotate360;
+ 
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.noidung{
+    padding-top: 30px;
+}
+
+.posterphim img{
+
+transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+
+}
+.posterphim:hover img
+{
+    transform: scale(1.1,1.1);
+-webkit-transform: scale(1.1,1.1);
+-moz-transform: scale(1.1,1.1);
+-o-transform: scale(1.1,1.1);
+-ms-transform: scale(1.1,1.1);
+}
+.chuongtrinh{
+    background-color: white;
+
+}
+.footer{
+    background-color: black;
+}
+@media (max-width: 767px)
+{
+    
+    .hienthiicon{
+        display: none;
+    }
+}
